@@ -629,6 +629,8 @@ footer {
 */
 .shape {
   position: fixed;
+  width: 100px;
+  height: 100px;
 }
 .shape--0 {
   top: 15vh;
