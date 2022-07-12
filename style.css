@@ -441,7 +441,7 @@ nav {
   display: none;
   align-items: center;
   justify-content: center;
-  z-index: -1;
+  z-index: -2;
 }
 
 .modal__overlay--loading {
@@ -629,8 +629,8 @@ footer {
 */
 .shape {
   position: fixed;
-  width: 100px;
-  height: 100px;
+  width: 100%;
+  max-width: 100px;
 }
 .shape--0 {
   top: 15vh;
