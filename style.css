@@ -30,6 +30,7 @@ button {
 section {
   background-color: rgb(245, 245, 245);
   transition: all 300ms ease;
+  
 }
 
 input, textarea {
@@ -94,10 +95,12 @@ input:focus, textarea:focus {
   margin-bottom: 12px;
   text-align: left;
   line-height: 1;
+  z-index: 5;
 }
 
 .orange {
   color: #f06449 !important;
+  z-index: 2;
 }
 
 .link__hover-effect {
@@ -631,6 +634,7 @@ footer {
   position: fixed;
   width: 100%;
   max-width: 100px;
+
 }
 .shape--0 {
   top: 15vh;
@@ -736,5 +740,8 @@ footer {
   }
   .modal__half {
     padding: 40px;
+  }
+  .shape{
+    width: 15%;
   }
 }
