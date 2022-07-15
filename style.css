@@ -571,6 +571,16 @@ nav {
   margin: 16px 0;
 }
 
+.mini-project__img{
+  width: 100px;
+}
+
+.pro-wrapper-mini{
+  align-items: center;
+  justify-content: center;
+  display: flex;
+}
+
 /* 
 
   FOOTER 
