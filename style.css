@@ -683,6 +683,64 @@ footer {
   left: 80vw;
 }
 
+
+.githubContainer {
+  padding: 50px 0;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.githubTitle {
+  text-align: center;
+  font-size: 48px;
+  color: black;
+}
+
+.githubChart {
+  width: 820px;
+  text-align: center;
+}
+
+.dates {
+  padding: 10px;
+  font-size: 12px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.boxContainer {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 5px;
+}
+
+.box {
+  width: 15px;
+  height: 15px;
+  background-color: #fff;
+  border-radius: 2px;
+  cursor: pointer;
+  transition: 3s all ease;
+}
+
+.active:nth-child(4n) {
+  background-color: #195b2c;
+}
+
+.githubChart:hover .active:nth-child(2n+1){
+  background-color: #195b2c;
+}
+.githubChart:hover .active:nth-child(2n){
+  background-color: #063f24;
+}
+
+.githubSm{
+  display: none;
+}
+
 /* ADDED AFTER TUTORIAL */
 .footer__logo--popper {
   position: absolute;

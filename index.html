@@ -9,7 +9,7 @@
   <link rel="stylesheet" href="style.css">
   <link rel="icon" href="/assets/favicon.ico" type="image/x-icon">
   <script src="https://kit.fontawesome.com/f936f45ab8.js" crossorigin="anonymous"></script>
-  <script src="script.js"></script>
+  <script src="script.js" defer></script>
   <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/emailjs-com@3/dist/email.min.js"></script>
   <script type="text/javascript">
     (function () {
@@ -39,6 +39,13 @@
             link__hover-effect--black
           ">Projects</a>
         </li>
+        <li class="nav__link">
+          <a href="#formore" class="
+            nav__link--anchor
+            link__hover-effect
+            link__hover-effect--black
+          ">For More</a>
+        </li>
         <li class="nav__link" onclick="toggleModal()">
           <a href="#" class="
             nav__link--anchor
@@ -60,10 +67,10 @@
         <h1 class="title">Hey</h1>
         <h1 class="title orange">I'm Zack.</h1>
         <p class="header__para">
-          I'm a <b class="orange">Frontend Software Engineer</b> with a strong passion for building web applications
-          with great user
-          experiences. Using React, I was able to create some of my project.
-          I also love to make mini-games on HTML.
+          I'm a <b class="orange">Frontend Software Engineer and Freelancer</b> with a strong passion for building web
+          applications
+          with great user experiences. Using React, I am able to create some of my project. I also love to make
+          mini-games with just vanilla HTML, CSS, and Javascript.
           <br>
           Here's a bit more <b class="orange click" onclick="toggleModal()">about me</b>.
         </p>
@@ -93,9 +100,13 @@
         <h3 class="modal__title modal__title--about">Here's a bit about me.</h3>
         <h4 class="modal__sub-title modal__sub-title--about">Frontend Software Engineer.</h4>
         <p class="modal__para">
-          I am 19 year-old, who is currently attending University of Houston. My career as a <b class="orange">frontend software engineer</b> 
-          just started and I am excited to explore the world of web-building. I have experiences with some <b class="orange">projects</b> and <b class="orange">game-making</b> 
-          with HTML, CSS, and JAVA. I am currently learning more languages to sharpen my <b class="orange">skills</b>.
+          I am 20 year-old, who is currently attending University of Houston. I am currently working as a Lead
+          Instructor at iCode and still looking for opportunities. My career as a <b class="orange">frontend software
+            engineer and freelancer</b>
+          started in the beginning of 2022 and I am excited to explore the world of web-building. I have experiences
+          with some <b class="orange">projects</b> and <b class="orange">game-making</b>
+          with HTML, CSS, JS and React. I am currently learning more languages to sharpen my <b
+            class="orange">skills</b>.
         </p>
         <div class="modal__languages">
           <figure class="modal__language">
@@ -115,28 +126,9 @@
             <span class="language__name">JavaScript</span>
           </figure>
           <figure class="modal__language">
-            <img class="modal__language--img"
-              src="https://cdn.iconscout.com/icon/free/png-256/typescript-3521774-2945272.png" alt="">
-            <span class="language__name">TypeScript</span>
-          </figure>
-
-          <figure class="modal__language">
-            <img class="modal__language--img" src="https://mobx.js.org/img/mobx.png" alt="">
-            <span class="language__name">MobX</span>
-          </figure>
-          <figure class="modal__language">
             <img class="modal__language--img" src="https://cdn.iconscout.com/icon/free/png-256/react-3-1175109.png"
               alt="">
             <span class="language__name">React</span>
-          </figure>
-          <figure class="modal__language">
-            <img class="modal__language--img" src="https://cdn.iconscout.com/icon/free/png-256/vue-282497.png" alt="">
-            <span class="language__name">Vue</span>
-          </figure>
-          <figure class="modal__language">
-            <img class="modal__language--img"
-              src="https://cdn.iconscout.com/icon/free/png-256/nuxt-dot-js-3628959-3030184.png" alt="">
-            <span class="language__name">Nuxt</span>
           </figure>
         </div>
       </div>
@@ -203,10 +195,12 @@
                 </h4>
                 <p class="project__description--para">
                   One of my first major project, main objective was to learn to make an aesthetically webpage.
-                  This website also can sort books by three categories, add to cart, prices add up. All of it are done with React
+                  This website also can sort books by three categories, add to cart, prices add up. All of it are done
+                  with React
                 </p>
                 <div class="project__description--links">
-                  <a href="https://zuckuu.github.io/e-library-react/" target="_blank" class="project__description--link">
+                  <a href="https://zuckuu.github.io/e-library-react/" target="_blank"
+                    class="project__description--link">
                     <i class="fas fa-link"></i>
                   </a>
                   <a href="https://github.com/zuckuu" target="_blank" class="project__description--link">
@@ -229,7 +223,7 @@
                 </h4>
                 <p class="project__description--para">
                   This is a google clone that is fully responsive and not only that, the search engine also works.
-                  Special thanks to Coding Star for helping my learn. 
+                  Special thanks to Coding Star for helping my learn.
                 </p>
                 <div class="project__description--links">
                   <a href="https://zuckuu.github.io/google-clone/" target="_blank" class="project__description--link">
@@ -254,7 +248,7 @@
                   HTML, CSS, JavaScript
                 </h4>
                 <p class="project__description--para">
-                  A practice to learn how to use the inspections to copy a website's looks. 
+                  A practice to learn how to use the inspections to copy a website's looks.
                   (Most of them are hardcoded)
                 </p>
                 <div class="project__description--links">
@@ -280,7 +274,8 @@
                   HTML, CSS, JavaScript
                 </h4>
                 <p class="project__description--para">
-                  This movies searcher was a practice for using API. This website works, but won't do to github HTTPS protections.
+                  This movies searcher was a practice for using API. This website works, but won't do to github HTTPS
+                  protections.
                 </p>
                 <div class="project__description--links">
                   <a href="https://zuckuu.github.io/moviesearcher/" target="_blank" class="project__description--link">
@@ -329,9 +324,36 @@
               </div>
             </div>
           </li>
-          
+
         </ul>
       </div>
+    </div>
+  </section>
+  <section id="formore">
+    <div class="githubContainer">
+      <h1 class="githubTitle">Want to see all projects?</h1>
+      <div class="githubChart">
+        <div class="dates">
+          <span>Jan</span>
+          <span>Feb</span>
+          <span>Mar</span>
+          <span>Apr</span>
+          <span>May</span>
+          <span>Jun</span>
+          <span>Jul</span>
+          <span>Agu</span>
+          <span>Sep</span>
+          <span>Oct</span>
+          <span>Nov</span>
+          <span>Dec</span>
+        </div>
+        <div class="boxContainer"></div>
+        <a href="https://github.com/Zuckuu" class="link__hover-effect
+        link__hover-effect--black githubTitle" target="_blank">
+          ON GITHUB
+        </a>
+      </div>
+    </div>
     </div>
   </section>
   <footer>
